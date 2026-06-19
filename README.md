@@ -1,8 +1,9 @@
 **Inventory & Order Management System**
 
 **Github Link**: (https://github.com/ruchiyadav0070/ruchi0090)
-**Fronted Link**: http://localhost:5173/
-**Backend Link**: http://localhost:5173/
+**Fronted Link**: (http://localhost:5173/)
+**Backend Link**: (http://localhost:5173/)
+
 StockWise is a simplified Inventory & Order Management System built with a **FastAPI** backend API, a **React** (Vite + TypeScript + Vanilla CSS) frontend, and a **PostgreSQL** database. 
 
 The application implements advanced inventory control rules, database row locking for race-condition prevention, responsive dashboard views, and full containerization.
@@ -113,7 +114,7 @@ docker login
 # Push the image to the repository
 docker push ruchi0070/stockwise-backend:latest
 ```
-This gives you your **Backend Docker Hub Image Link**: `https://hub.docker.com/r/pri0070/stockwise-backend`.
+This gives you your **Backend Docker Hub Image Link**: `https://hub.docker.com/repository/docker/ruchi0070/ruchi0070/general`.
 
 ### 3. Deploy to Render (Free Tier)
 Render supports automatic deployments using our pre-configured `render.yaml` Blueprint file:
