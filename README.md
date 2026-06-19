@@ -1,6 +1,6 @@
-# StockWise - Inventory & Order Management System
+Inventory & Order Management System
 
-[![Publish Docker Image](https://github.com/Rajat0098/Inventory_management_System/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/Rajat0098/Inventory_management_System/actions/workflows/docker-publish.yml)
+[![Publish Docker Image](https://github.com/ruchiyadav0070/ruchi0090)](https://github.com/ruchiyadav0070/ruchi0090)
 
 StockWise is a simplified Inventory & Order Management System built with a **FastAPI** backend API, a **React** (Vite + TypeScript + Vanilla CSS) frontend, and a **PostgreSQL** database. 
 
@@ -96,7 +96,7 @@ Since hosting platform accounts and Docker Hub require personal authentication, 
    git add .
    git commit -m "Initial commit of StockWise inventory system"
    git branch -M main
-   git remote add origin https://github.com/Rajat0098/Inventory_management_System.git
+   git remote add origin https://github.com/ruchiyadav0070/ruchi0090
    git push -u origin main
    ```
 
@@ -104,13 +104,13 @@ Since hosting platform accounts and Docker Hub require personal authentication, 
 To compile and publish your backend API image to Docker Hub:
 ```bash
 # Build the image locally
-docker build -t pri0070/stockwise-backend:latest ./backend
+docker build -t ruchi0070/stockwise-backend:latest ./backend
 
 # Login to Docker Hub
 docker login
 
 # Push the image to the repository
-docker push pri0070/stockwise-backend:latest
+docker push ruchi0070/stockwise-backend:latest
 ```
 This gives you your **Backend Docker Hub Image Link**: `https://hub.docker.com/r/pri0070/stockwise-backend`.
 
