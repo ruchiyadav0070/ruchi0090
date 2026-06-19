@@ -1,10 +1,10 @@
-** **Inventory & Order Management System** **
+ **Inventory & Order Management System** 
 
-**Github Link**: https://github.com/ruchiyadav0070/ruchi0090
+🔗**Github Link**: https://github.com/ruchiyadav0070/ruchi0090👉
 
-****Frontend Hosted URL****: http://localhost:5173/
+🔗****Frontend Hosted URL****: http://localhost:5173/👉
 
-****Backend API Hosted URL****: http://localhost:5173/
+🔗****Backend API Hosted URL****: http://localhost:5173/👉
 
 StockWise is a simplified Inventory & Order Management System built with a **FastAPI** backend API, a **React** (Vite + TypeScript + Vanilla CSS) frontend, and a **PostgreSQL** database. 
 
@@ -12,7 +12,7 @@ The application implements advanced inventory control rules, database row lockin
 
 ---
 
-## Technical Stack & Architecture
+## ✅ Technical Stack & Architecture
 
 - **Backend**: Python 3.14 + FastAPI. Uses SQLAlchemy 2.0 ORM with a PostgreSQL connection engine. Supports automatic fallback to local SQLite database when PostgreSQL is offline.
 - **Frontend**: React 18 + Vite + TypeScript + Vanilla CSS. Built using custom glassmorphic styling, HSL colors, responsive grid columns, custom alerts, scrollbars, and Lucide SVG icons.
@@ -21,7 +21,7 @@ The application implements advanced inventory control rules, database row lockin
 
 ---
 
-## Implemented Business Rules
+## ✅ Implemented Business Rules
 
 1. **Unique SKUs**: Product SKUs are indexed with a `unique` constraint at the database tier. Attempting to save a duplicate SKU returns a clean `400 Bad Request`.
 2. **Unique Customer Emails**: Customer contact records enforce email uniqueness.
@@ -31,7 +31,7 @@ The application implements advanced inventory control rules, database row lockin
 
 ---
 
-## Local Setup & Quick Start (Windows)
+## ✅ Local Setup & Quick Start (Windows)
 
 A custom launcher batch script is included in the project root to start everything with one click.
 
@@ -43,7 +43,7 @@ A custom launcher batch script is included in the project root to start everythi
    - Boot the React dev server on `http://localhost:5173/`.
 3. Open your browser and navigate to `http://localhost:5173`.
 
-### Method B: Manual Startup
+###⚙️ Method B: Manual Startup
 
 #### 1. Start the Backend API
 ```bash
@@ -65,7 +65,7 @@ The User Interface will be available at: `http://localhost:5173/`.
 
 ---
 
-## Running Automated Tests
+##✅ Running Automated Tests
 
 We have written an integration test suite verifying email/SKU uniqueness, stock reductions, and order status updates. Run them directly in the backend folder:
 ```bash
@@ -75,7 +75,7 @@ venv\Scripts\pytest
 
 ---
 
-## Containerization with Docker
+##✅ Containerization with Docker
 
 If Docker Desktop is running on your machine, launch the entire containerized network (Postgres DB + Backend API + Frontend Client) using:
 ```bash
@@ -88,7 +88,7 @@ This maps:
 
 ---
 
-## Public Deployment Guide
+## ✅Public Deployment Guide
 
 Since hosting platform accounts and Docker Hub require personal authentication, follow these steps to deploy and obtain your hosted links:
 
