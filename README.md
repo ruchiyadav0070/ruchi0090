@@ -1,4 +1,4 @@
-// **Inventory & Order Management System** //
+** **Inventory & Order Management System** **
 
 **Github Link**: https://github.com/ruchiyadav0070/ruchi0090
 
