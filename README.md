@@ -1,7 +1,8 @@
 Inventory & Order Management System
 
-Github Link** (https://github.com/ruchiyadav0070/ruchi0090)
-
+Github Link**: (https://github.com/ruchiyadav0070/ruchi0090)
+Fronted Link**: http://localhost:5173/
+Backend Link**: http://localhost:5173/
 StockWise is a simplified Inventory & Order Management System built with a **FastAPI** backend API, a **React** (Vite + TypeScript + Vanilla CSS) frontend, and a **PostgreSQL** database. 
 
 The application implements advanced inventory control rules, database row locking for race-condition prevention, responsive dashboard views, and full containerization.
@@ -35,8 +36,8 @@ A custom launcher batch script is included in the project root to start everythi
 1. Double-click the `run-local.bat` script in the root directory.
 2. This script will automatically:
    - Run `npm install` to download frontend dependencies.
-   - Boot the FastAPI backend on `http://localhost:8000` (auto-routing to SQLite since Docker is off).
-   - Boot the React dev server on `http://localhost:5173`.
+   - Boot the FastAPI backend on `http://localhost:5173/` (auto-routing to SQLite since Docker is off).
+   - Boot the React dev server on `http://localhost:5173/`.
 3. Open your browser and navigate to `http://localhost:5173`.
 
 ### Method B: Manual Startup
@@ -57,7 +58,7 @@ cd frontend
 npm install
 npm run dev
 ```
-The User Interface will be available at: `http://localhost:5173`.
+The User Interface will be available at: `http://localhost:5173/`.
 
 ---
 
@@ -78,7 +79,7 @@ If Docker Desktop is running on your machine, launch the entire containerized ne
 docker compose up -d --build
 ```
 This maps:
-- React App: `http://localhost:5173`
+- React App: `http://localhost:5173/`
 - FastAPI: `http://localhost:8000`
 - PostgreSQL: `localhost:5432`
 
