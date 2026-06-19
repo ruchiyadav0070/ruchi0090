@@ -1,8 +1,10 @@
-**Inventory & Order Management System**
+****Inventory & Order Management System****
 
 **Github Link**: (https://github.com/ruchiyadav0070/ruchi0090)
-**Fronted Link**: (http://localhost:5173/)
-**Backend Link**: (http://localhost:5173/)
+
+****Fronted Link****: (http://localhost:5173/)
+
+****Backend Link****: (http://localhost:5173/)
 
 StockWise is a simplified Inventory & Order Management System built with a **FastAPI** backend API, a **React** (Vite + TypeScript + Vanilla CSS) frontend, and a **PostgreSQL** database. 
 
